@@ -1,0 +1,22 @@
+﻿<Demo:ePaperColors xmlns:Demo="using:Waveshare.Devices.Display.Demo" xmlns:System="using:System" Capacity="4">
+    <Demo:ePaperColorItem Brush="#FF000000" ColorName="Black" ColorValue="#FF000000">
+		<Demo:ePaperColorItem.ByteValue>
+            <System:Byte>0</System:Byte>
+		</Demo:ePaperColorItem.ByteValue>
+	</Demo:ePaperColorItem>
+    <Demo:ePaperColorItem Brush="#FFA9A9A9" ColorName="DarkGray" ColorValue="#FFA9A9A9">
+		<Demo:ePaperColorItem.ByteValue>
+            <System:Byte>1</System:Byte>
+		</Demo:ePaperColorItem.ByteValue>
+	</Demo:ePaperColorItem>
+    <Demo:ePaperColorItem Brush="#FFD3D3D3" ColorName="LightGray" ColorValue="#FFD3D3D3">
+		<Demo:ePaperColorItem.ByteValue>
+            <System:Byte>2</System:Byte>
+		</Demo:ePaperColorItem.ByteValue>
+	</Demo:ePaperColorItem>
+	<Demo:ePaperColorItem Brush="#FFFFFFFF" ColorName="White" ColorValue="#FFFFFFFF">
+		<Demo:ePaperColorItem.ByteValue>
+            <System:Byte>3</System:Byte>
+		</Demo:ePaperColorItem.ByteValue>
+	</Demo:ePaperColorItem>
+</Demo:ePaperColors>
